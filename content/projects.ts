@@ -1,0 +1,102 @@
+import type { Project } from '@/types';
+
+export const projectsData: Project[] = [
+  {
+    id: 'proj-1',
+    slug: 'national-bank-cloud-migration',
+    title: { ar: 'ترحيل البنك الوطني إلى السحابة', en: 'National Bank Cloud Migration' },
+    client: 'National Bank',
+    category: { ar: 'السحابة', en: 'Cloud' },
+    location: { ar: 'الرياض، السعودية', en: 'Riyadh, Saudi Arabia' },
+    year: '2024',
+    description: {
+      ar: 'قمنا بترحيل البنية التحتية التقنية للبنك الوطني إلى السحابة بنجاح، مع ضمان استمرارية الخدمة وأمان البيانات خلال العملية.',
+      en: 'We successfully migrated the National Bank technology infrastructure to the cloud, ensuring service continuity and data security throughout the process.',
+    },
+    scope: [
+      { ar: 'تقييم البنية الحالية', en: 'Current infrastructure assessment' },
+      { ar: 'تصميم البنية السحابية', en: 'Cloud architecture design' },
+      { ar: 'الترحيل التدريجي', en: 'Phased migration' },
+      { ar: 'التدريب والتسليم', en: 'Training and handover' },
+    ],
+    results: [
+      { ar: 'تقليل التكاليف بنسبة 40%', en: '40% cost reduction' },
+      { ar: 'تحسين الأداء بنسبة 60%', en: '60% performance improvement' },
+      { ar: 'توافر 99.95%', en: '99.95% availability' },
+    ],
+    images: ['https://images.pexels.com/photos/10958528/pexels-photo-10958528.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'],
+    gallery: ['https://images.pexels.com/photos/10958528/pexels-photo-10958528.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'],
+    detailedContent: { ar: '', en: '' },
+    featured: true,
+    seo: {
+      title: { ar: 'ترحيل البنك الوطني | تِك نوفا', en: 'National Bank Migration | TechNova' },
+    },
+    status: 'published',
+    createdAt: '2024-03-01T08:00:00Z',
+    updatedAt: '2024-06-01T08:00:00Z',
+  },
+  {
+    id: 'proj-2',
+    slug: 'energy-sector-cybersecurity',
+    title: { ar: 'حماية قطاع الطاقة', en: 'Energy Sector Cybersecurity' },
+    client: 'Saudi Energy Co.',
+    category: { ar: 'الأمن السيبراني', en: 'Cybersecurity' },
+    location: { ar: 'الظهران، السعودية', en: 'Dhahran, Saudi Arabia' },
+    year: '2024',
+    description: {
+      ar: 'نفذنا نظام حماية شامل لشركة طاقة كبرى، يشمل مراقبة الشبكة، كشف التهديدات، والاستجابة للحوادث.',
+      en: 'We implemented a comprehensive protection system for a major energy company, including network monitoring, threat detection, and incident response.',
+    },
+    scope: [
+      { ar: 'تقييم المخاطر', en: 'Risk assessment' },
+      { ar: 'نشر أنظمة الحماية', en: 'Protection system deployment' },
+      { ar: 'تدريب الفريق', en: 'Team training' },
+    ],
+    results: [
+      { ar: 'صفر حوادث أمنية', en: 'Zero security incidents' },
+      { ar: 'كشف 100% من التهديدات', en: '100% threat detection' },
+    ],
+    images: ['https://images.pexels.com/photos/15893881/pexels-photo-15893881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'],
+    gallery: ['https://images.pexels.com/photos/15893881/pexels-photo-15893881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'],
+    detailedContent: { ar: '', en: '' },
+    featured: true,
+    seo: {
+      title: { ar: 'حماية قطاع الطاقة | تِك نوفا', en: 'Energy Sector Protection | TechNova' },
+    },
+    status: 'published',
+    createdAt: '2024-03-15T08:00:00Z',
+    updatedAt: '2024-06-10T08:00:00Z',
+  },
+  {
+    id: 'proj-3',
+    slug: 'smart-city-ai-platform',
+    title: { ar: 'منصة ذكاء اصطناعي للمدينة الذكية', en: 'Smart City AI Platform' },
+    client: 'Riyadh Municipality',
+    category: { ar: 'الذكاء الاصطناعي', en: 'AI' },
+    location: { ar: 'الرياض، السعودية', en: 'Riyadh, Saudi Arabia' },
+    year: '2023',
+    description: {
+      ar: 'طورنا منصة ذكاء اصطناعي لإدارة مرافق المدينة الذكية، تشمل إدارة المرور، الطاقة، والنفايات بناءً على تحليل البيانات.',
+      en: 'We developed an AI platform for managing smart city facilities, including traffic, energy, and waste management based on data analysis.',
+    },
+    scope: [
+      { ar: 'تصميم المنصة', en: 'Platform design' },
+      { ar: 'بناء نماذج الذكاء الاصطناعي', en: 'AI model development' },
+      { ar: 'التكامل مع الأنظمة', en: 'System integration' },
+    ],
+    results: [
+      { ar: 'تقليل الازدحام بنسبة 25%', en: '25% traffic reduction' },
+      { ar: 'توفير الطاقة بنسبة 30%', en: '30% energy savings' },
+    ],
+    images: ['https://images.pexels.com/photos/1587095/pexels-photo-1587095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'],
+    gallery: ['https://images.pexels.com/photos/1587095/pexels-photo-1587095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'],
+    detailedContent: { ar: '', en: '' },
+    featured: true,
+    seo: {
+      title: { ar: 'منصة المدينة الذكية | تِك نوفا', en: 'Smart City Platform | TechNova' },
+    },
+    status: 'published',
+    createdAt: '2023-11-01T08:00:00Z',
+    updatedAt: '2024-05-15T08:00:00Z',
+  },
+];
